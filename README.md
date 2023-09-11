@@ -72,7 +72,9 @@ pip list
 
 ---
 Describe what you did, telling the story of your data: 
-- producer:
-- consumer:
+- producer: A message with information about netflix shows was prepared and sent to the queue "netflix_queue". 
+- consumer: Created a blocking connection to the RabbitMQ server. Used the connection to create a communication channel. Consumed messages from the queue.
 ---
+
 ## Screenshot of the two windows running concurrently 
+see screenshot.png
